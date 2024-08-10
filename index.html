@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-angle-down"></i>
+    <i class="fa-solid fa-bars"></i>
+</head>
+<body>
+    <div class="backgroungColor">
+        <nav>
+            <div class="navIcon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+                <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+            </div>
+            <div class="theButton">
+                <button class="Button">SHOP</button>
+                <button class="Button" type="button" >ABOUT</button>
+                <svg class="searchNav" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+
+            </div>
+            <h1 class="figmaHead">THE FIGMA STORE</h1>
+            <div>
+                <img class="svgContact" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAaFJREFUSEvFl88rBVEUxz9P+bUTVpKsFWWjRKz8B8pKNhZixdYCZc9OskGyY8XGxkLZWUiSrBQlv4p/gHvqTo1p7tx75s2YU1PvzZt7Pud77jln7qtRkdUq4pIFHgHGgOaCgvsE9oAv8ecCrwIrBQHjbuaBrSzwO9BRAnjN+BRRTsU/JUDFZSHgY+AEeAMGgSWgzRNw3eBFA9lMQDqBa6ArA54K7gXkEjvPWHwDDDh+nwb2teDQSpaqlOpMM1H7XBZ4G5hzOG8HPrTg0FTfAv2mz9Mqfxi41ILjz/vaSSp4IwFoBc6AUS04VHHk9wg4NWl/sRlYAHrytFNocdUzW1LbqTJwaKrvgEPgCpDPMtf7bLrHzb0poMmRllyT69uMR9nHA0+uZZ9liEgQSVNPrlf7br4P3OAGMwV3AZlkcVPv8aRJpVSxxlqAB6A7tkgFfrJt4uvttKCWgXUf2FVcFzbNGrXRsxN2qETfVcX1aPcrD1jEzPgUa0ZmniBkjUpxXkjaOi+4ssPeDjBbpFTry3u8bbSVPPTfB/oSxP51Wdl/p19hb10fnjDZeQAAAABJRU5ErkJggg=="/>
+                <button id="uk" class="Button">UNITED STATE
+                    <img class="dropdown" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAJ5JREFUSEvtk8ENgCAQBJdOtBMtxUq0E+3EVixFN4HkQoA7HiQ+zo8ajxnc1YDBRxjMhwvUhD2i/0d0ALgAPJWtTgCWOFMcaZVM+B7ha0FC+BkFW03SEhBwfwt55htIiYTz2VwrQ/tMSxKy0s6bcA5qAs7kEkKZuwq3CnIJ703wHoGU8Lqaed6FJSK5JhWu/mBpoFdgBrvAHJV3oEb1ArjkGRmgoH6GAAAAAElFTkSuQmCC"/>
+                </button>
+                <img class="location" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVRJREFUSEu1ldlVAzEMRV86gUoCnSSVAJUAlUAnCZXA3ByJ44yfl/kY/8xm6epp8Ry08zrs7F8zgAdJJ0lHSU/L/XW5fkv6kfQRz804R4BXSS8dlcA+l+/ss6sH+IqIMXyLqIkcRSjhmnDePztCC0BK3kP+OZw7eyAEwpUgKiUOwOZLeCMqosv1GzelHWqAkK4qGAfIvFNADMrlAHxHLaorFQ6Qm3EOZAaQKqpaOADpIU2PITuj7jVKppU0Yfe/HCAdbgHg0KbPAbI91wVuOon8k9qpFCXAtd2oyFVjOAVl293ls5WGaGvqUKluzQFyAdnhWVU727oqMPtmJpmoMG5Ncmsob/tnziIbWdCyXpvPIuzLc8ZNdTrvBTD8H5TnUlmPnHYCce3cHbR1rksISvK4Hjof1aAElRDe25PTdcHoj7aGkBpgvX/EHWcLoHXYdd/vDvgDZ4BXGTg5+kkAAAAASUVORK5CYII="/>
+                <button id="cart" class="Button">CART
+                    <p class="proNumber">0</p>
+                </button>
+            </div>
+        </nav>
+        <div class="introImages" style="width: 100%; margin-top: 10px;">
+            <img src="//store.figma.com/cdn/shop/files/20240619_Figma_Store_4957_ae56be5f-d5dc-40a8-908c-76d789422cca_1000x.jpg?v=1719493521" alt="Description" width="40%" height="580px" class="pattern-image">
+            <img src="//store.figma.com/cdn/shop/files/20240619_Figma_Store_4924_1000x.jpg?v=1719490511" alt="Description" width="40%" height="580px" class="pattern-image">
+        </div>
+    </div>
+    <div class="figmaContainer">
+        <h2 class="blurb">
+            <span class="word">Figma's</span>
+                <img src="//store.figma.com/cdn/shop/t/29/assets/word-symbol-burst.static.svg?v=34745811441670751621721776479" aria-hidden="true" class="word-icon"> 
+            <span class="word">Collection</span>
+                <img src="//store.figma.com/cdn/shop/t/29/assets/word-symbol-hourglass.static.svg?v=133626873782927219541721776479" aria-hidden="true" class="word-icon"> 
+            <span class="word">Of</span>
+              <br>
+            <span class="word-layers" :class="productFilter == 'component' ? 'is-faded' : ''" @click="productFilter = productFilter == 'layer' ? 'all' : 'layer'; window.scrollReveal.delegate()">Layers</span> 
+                <img src="//store.figma.com/cdn/shop/t/29/assets/word-symbol-zag.static.svg?v=102718930007740203771721776478" aria-hidden="true" class="word-icon"> 
+            <span class="word">And</span>
+                <img src="//store.figma.com/cdn/shop/t/29/assets/word-symbol-dots.static.svg?v=39142388321885661271721776478" aria-hidden="true" class="word-icon"> 
+            <span class="word-components" @click="productFilter = productFilter == 'component' ? 'all' : 'component'; window.scrollReveal.delegate()" :class="productFilter == 'layer' ? 'is-faded' : ''">Components</span> 
+                <img src="//store.figma.com/cdn/shop/t/29/assets/word-symbol-sun.static.svg?v=163357932534391307201721776479" aria-hidden="true" class="word-icon"> 
+            <span class="word">For you</span>
+                <img src="//store.figma.com/cdn/shop/t/29/assets/word-symbol-comet.static.svg?v=16892712658856357451721776478" aria-hidden="true" class="word-icon"> 
+            <span class="word">and</span>    
+                <img src="//store.figma.com/cdn/shop/t/29/assets/word-symbol-snake.static.svg?v=34100567131936571961721776479" aria-hidden="true" class="word-icon"> 
+            <span class="word">your</span>    
+                <img src="//store.figma.com/cdn/shop/t/29/assets/word-symbol-tri.static.svg?v=32742515804419710851721776480" aria-hidden="true" class="word-icon"> 
+            <span class="word">friends</span>
+        </h2>
+        <div class="productContainer">
+            <div class="gridOne">
+                <div class="productRow1">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/F_20240620_Figma_ThePrompt_Issue2_5685_600x.png?v=1721147511" height="" width="" aria-hidden="" loading="lazy">
+                    </div> 
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img id="hiddenImage" class="hover-pattern" src="//store.figma.com/cdn/shop/files/pattern-41_600x.png?v=1719353495" height="" width="" aria-hidden="" loading="lazy">
+                        <img id="hiddenImage" class="hover-image" src="//store.figma.com/cdn/shop/files/14_600x.png?v=1719507446" height="" width="" aria-hidden="" loading="lazy">
+                        <img id="displayImage" class="hover-image" src="//store.figma.com/cdn/shop/files/20240619_Figma_Store_4914_600x.jpg?v=1719341698" height="" width="" alt="Chunky Glyph Tee" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">Chunky Glyph Tee</span>
+                        </div>
+                        <p>₦40,700</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/20240619_Figma_Store_5503_600x.jpg?v=1719341195" height="" width="" alt="All Smiles Nalgene" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">All Smiles Nalgene</span>
+                        </div>
+                        <p>₦32,800</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/20240619_Figma_Store_5116_859eaff4-b3e6-4bd7-84cd-3c82f1b66a4d_600x.jpg?v=1719507726" height="" width="" alt="Independent Corners Tee" loading="lazy"> 
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">Independent Corners Tee</span>
+                        </div>
+                        <p>₦41,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gridTwo">
+                <div class="productRow1">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/20240619_Figma_Store_4506_600x.jpg?v=1719341872" height="" width="" alt="Doodle Tee" loading="lazy">
+                    </div>
+                    <div class="productText">
+                       <div>
+                            <p>New!</p>
+                            <span class="productName">Doodle Tee</span>
+                        </div>
+                        <p>₦41,000</p>
+                    </div>   
+                </div>
+                <div class="productRow1">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/20240619_Figma_Store_4966_600x.jpg?v=1719341945" height="" width="" alt="Figma Doodle Socks" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">Figma Doodle Socks</span>
+                        </div>
+                        <p>₦19,700</p>
+                    </div>   
+                </div>
+                <div class="productRow2">
+                    <div  class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/20240619_Figma_Store_5283_1200x.jpg?v=1719342792" height="" width="" alt="Wildflower Hoodie" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">Wildflower Hoodie</span>
+                        </div>
+                        <p>₦73,700</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="gridTwo">
+                <div class="productRow2">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/InkblotTee_1200x.png?v=1719342423" height="" width="" alt="Inkblot Tee" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">Inkblot Tee</span>
+                        </div>
+                        <p>₦41,000</p>
+                    </div>   
+                </div>
+                <div class="productRow1">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/20240619_Figma_Store_5087_600x.jpg?v=1719341467" height="" width="" alt="Chunky Glyph Cap" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">Chunky Glyph Cap</span>
+                        </div>
+                        <p>₦32,800</p>
+                    </div>   
+                </div>
+                <div class="productRow1">
+                    <div  class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/20240619_Figma_Store_5603_600x.jpg?v=1719342498" height="" width="" alt="Local Styles Crewneck" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">Local Styles Crewneck</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="gridThree">
+                <div class="productRow1">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/20240619_Figma_Store_4764_be63c001-0c88-468c-9a18-59aff3703031_600x.jpg?v=1719507934" height="" width="" alt="All Smiles Tee" loading="lazy">
+                    </div> 
+                    <div class="productText">
+                        <div>
+                            <span class="productName">All Smiles Tee</span>
+                        </div>
+                        <p>₦41,000</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                    <img class="hover-image" src="//store.figma.com/cdn/shop/files/20240619_Figma_Store_5395_600x.jpg?v=1719342092" height="" width="" alt="Gestures Longsleeve" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">Gestures Longsleeve
+</span>
+                        </div>
+                        <p>₦49,200</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/20240619_Figma_Store_4883_600x.jpg?v=1719341772" height="" width="" alt="Doodle Hoodie" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">Doodle Hoodie</span>
+                        </div>
+                        <p>₦73,700</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                       <img class="hover-image" src="//store.figma.com/cdn/shop/files/20240619_Figma_Store_5201_b938b1fb-eeec-426b-9d55-926a2848f98a_600x.jpg?v=1719509034" height="" width="" alt="Chunky Glyph Longsleeve" loading="lazy"> 
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">Chunky Glyph Longsleeve</span>
+                        </div>
+                        <p>₦49,200</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gridFour">
+                <div class="productRow1">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/20240619_Figma_Store_4993_600x.jpg?v=1719342599" height="" width="" alt="Butterfly Tote" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">Butterfly Tote/span>
+                        </div>
+                        <p>₦41,808</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </div>   
+                </div>
+                <div class="productRow1">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/25_b1571a20-9cbe-4ed6-985e-c6b389a36afa_600x.png?v=1719338624" height="" width="" alt="Make your Mark(er) Pack" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">Make your Mark(er) Pack</span>
+                        </div>
+                        <p>₦36,100</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               00</p>
+                    </div>   
+                </div>
+                <div class="productRow2">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/Notebook_084ba395-4c3a-4feb-9803-b29a6125701c_1200x.png?v=1719346544" height="" width="" alt="Round Corners Graph Notebook" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">Round Corners Graph Notebook</span>
+                        </div>
+                        <p>₦16,400</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="gridFive">
+                <div class="productRow2">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/TidyUpBack_1200x.png?v=1719342731" height="" width="" alt="Tidy Up Crewneck" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">Tidy Up Crewneck</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>   
+                </div>
+                <div class="productRow1">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/20240619_Figma_Store_4566_600x.jpg?v=1719341034" height="" width="" alt="All Smiles Dad Hat" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>   
+                </div>
+                <div class="productRow1">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/20240619_Figma_Store_5034_600x.jpg?v=1719342029" height="" width="" alt="Garden Crew Socks" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="gridSix">
+                <div class="productRow1">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/FigmaStore_ProductImages_ShapesPin_600x.png?v=1719858637" height="" width="" alt="Shapes Pin" loading="lazy">
+                    </div> 
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/figma-store_tool-kit-pin_01_600x.jpg?v=1670520907" height="" width="" alt="Toolkit Pin" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/20240619_Figma_Store_5503_600x.jpg?v=1719341195" height="" width="" alt="All Smiles Nalgene" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/figma-store_best-bud-pin_01_600x.jpg?v=1670520788" height="" width="" alt="Best Bud Pin" loading="lazy"> 
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gridSix">
+                <div class="productRow1">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/figma-store_meet-n-greet-pin_01_600x.jpg?v=1670520677" height="" width="" alt="Meet n' Greet Pin" loading="lazy">
+                    </div> 
+                    <div class="productText">
+                       <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/figma-store_power-points-pin_01_600x.jpg?v=1670520537" height="" width="" alt="Power Points Pin" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/figma-store_washi-tape-green_01_600x.jpg?v=1670520424" height="" width="" alt="Gridlock Washi Tape" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/figma-store_on-brand-hat_01_600x.jpg?v=1670519718" height="" width="" alt="On brand hat" loading="lazy"> 
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gridSix">
+                <div class="productRow1">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/figma-store_version-history-jacket_01_600x.jpg?v=1670519561" height="" width="" alt="Version History Coach Jacket" loading="lazy">
+                    </div> 
+                    <div class="productText">
+                       <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/figma-store_tidy-up-tee_01_600x.jpg?v=1670516715" height="" width="" alt="Tidy Up Tee" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/figma-store_shape-up-tee_013_600x.png?v=1678114580" height="" width="" alt="Shape Up Tee" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/figma-store_framework-tee_01_600x.jpg?v=1670515454" height="3" width="" alt="Framework Tee" loading="lazy"> 
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gridSix">
+                <div class="productRow1">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/IMG_9207_600x.png?v=1651177999" height="" width="" alt="Pixel Perfect Dark Mode Tee" loading="lazy">
+                    </div> 
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/GiftCard-PLP_600x.png?v=1641323873" height="" width="" alt="The Figma Store gift card" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/Figma-Store-366_600x.jpg?v=1636598498" height="" width="" alt="Elevated Workflows Tee" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/Figma-Store-2091_600x.jpg?v=1636598619" height="" width="" alt="Figma Logo Pin" loading="lazy"> 
+                    </div>
+                    <div class="productText">
+                       <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gridSix">
+                <div class="productRow1">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/Figma-Store-1096_600x.jpg?v=1636599836" height="" width="" alt="Rainbow Logo Tee" loading="lazy">
+                    </div> 
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/Figma-Store-1469_600x.jpg?v=1636598538" height="" width="" alt="Figma Hoodie" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/Figma-Store-1224_600x.jpg?v=1636599461" height="" width="" alt="Hug Contents Tee" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/Figma-Store-2894_600x.jpg?v=1636598662" height="" width="" alt="Figma Logo Tee" loading="lazy"> 
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gridSix">
+                <div class="productRow1">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/Figma-Store-2953_600x.jpg?v=1636598421" height="" width="" alt="Detach Instance Pin" loading="lazy">
+                    </div> 
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/Figma-Store-3215_600x.jpg?v=1636598458" height="" width="" alt="Detach Instance Tee" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/Figma-Store-3504_600x.jpg?v=1636599916" height="" width="" alt="Smiley Face Pin" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/Figma-Store-3600-Edit_600x.jpg?v=1636599551" height="" width="" alt="Meet Me in the Browser Tee" loading="lazy"> 
+                    </div>
+                    <div class="productText">
+                       <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gridSix">
+                <div class="productRow1">
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/Figma-Store-3751-Edit_600x.jpg?v=1636599807" height="" width="" alt="Plugins Mug" loading="lazy">
+                    </div> 
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/Figma-Store-3814_600x.jpg?v=1636599369" height="" width="" alt="Figma Wordmark Tee" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/products/Figma-Store-4050-Edit_600x.jpg?v=1636598157" height="" width="" alt="Bezier Logo Tee" loading="lazy">
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+                <div class="productRow1" >
+                    <div class="imageContainer">
+                        <img class="hover-image" src="//store.figma.com/cdn/shop/files/FigmaStore_ProductImages_NewHire_PenToolPin_600x.png?v=1716927268" height="" width="" alt="Pentool Pin" loading="lazy"> 
+                    </div>
+                    <div class="productText">
+                        <div>
+                            <p>New!</p>
+                            <span class="productName">The Promt Magazine</span>
+                        </div>
+                        <p>₦24,600</p>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <footer>
+        <div class="footerContainer">
+            <div>
+                <h3>OBJECTS</h3>
+                <h3>THAT</h3>
+                <h3>INSPIRE</h3>
+            </div>
+            <div class="footerPara">
+                <p>FAQ</p>
+                <p>Contact Us</p>
+                <p>Privacy Policy</p>
+                <p>Terms of Service</p>
+            </div>
+            <div class="Description">
+                <p>This site is powered by  Harper + Scott, a Certified B-Corporation. For more information read Harper + Scott's CSR policy.
+                </p>
+            </div>       
+        </div>
+        <div class="socialMedia">
+            <h2>FIGMA</h2>
+            <h2>TWITTER</h2>
+            <h2>INSTAGRAM</h2>
+            <h2>YOUTUBE</h2>
+        </div>
+        
+    </footer>
+</body>
+</html>
