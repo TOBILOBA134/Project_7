@@ -134,6 +134,13 @@ nav div{
 
 .productRow1{
     position: relative;
+    height: 100%;
+    width: 100%;
+}
+.imageContainer:hover{
+    border: 2px solid black;
+    border-radius: 35px;
+
 }
 .imageContainer{
     position: relative;
