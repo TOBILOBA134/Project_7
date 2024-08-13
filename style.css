@@ -17,7 +17,7 @@ body{
 .backgroungColor{
     background-color: #ffc700;
     width: 100%;
-    height: 700px;
+    height: 100%;
 }
 
 nav{
@@ -82,8 +82,13 @@ nav div{
 }
 .introImages{
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: center;
+}
+.pattern-image{
+    width: 40%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 40px;
 }
 .figmaContainer{
     width: 100%;
@@ -133,7 +138,7 @@ nav div{
 .imageContainer{
     position: relative;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     padding-bottom: 113%;
 }
 .hover-pattern{
@@ -189,7 +194,7 @@ nav div{
     grid-template-columns: repeat(4, 1fr);
     column-gap: 30px;
     row-gap: 60px;
-    margin-top: 120px;
+    margin-top: 40px;
 }
 .productRow2{
     grid-column: span 2;
@@ -200,28 +205,28 @@ nav div{
     grid-template-columns: repeat(4, 1fr);
     column-gap: 30px;
     row-gap: 60px;
-    margin-top: 120px;
+    margin-top: 40px;
 }
 .gridFour{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 30px;
     row-gap: 60px;
-    margin-top: 120px;
+    margin-top: 40px;
 }
 .gridFive{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 30px;
     row-gap: 60px;
-    margin-top: 120px;
+    margin-top: 40px;
 }
 .gridSix{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 30px;
     row-gap: 60px;
-    margin-top: 120px;
+    margin-top: 40px;
 }
 footer{
     width: 100%;
@@ -281,6 +286,9 @@ footer{
 .location{
     display: none;
 }
+.thirdButton{
+    display: none;
+}
 /* Responsiveness */
 @media screen and (max-width: 1150px){
     .productContainer{
@@ -315,6 +323,26 @@ footer{
     nav{
         justify-content: space-between;
     }
+    .thirdButton{
+        display: block;
+        background-color: transparent;
+        border: 2px solid black;
+        border-radius: 50px;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 9px;
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 6px;
+        margin-left: 10px;
+        font-family: 'whyte-Medium';
+        cursor: pointer;
+    }
+    #cart{
+        display: none;
+    } 
+
 }
 @media screen and (max-width: 767px){
     .gridOne{
@@ -389,4 +417,27 @@ footer{
     .word-icon{
         width: 24px;
     }
+}
+@media screen and (max-width: 450px){
+    .svgContact{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 25px;
+        height: 25px;
+    }
+    .Button{
+        margin-left: 0px;
+    }
+    .navIcon svg{
+        width: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .figmaHead{
+        font-size: 16px;
+    }
+    .thirdButton{
+        margin-left: 0px;
+    }
+
 }
